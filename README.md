@@ -20,6 +20,9 @@ way that you want.
 
 Choose one of the following options:
 
+
+scratch arse
+
 1. Download the latest stable release from
    [html5boilerplate.com](https://html5boilerplate.com/).
 2. Clone the git repo — `git clone
