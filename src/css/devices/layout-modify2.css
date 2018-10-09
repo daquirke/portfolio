@@ -1,0 +1,19 @@
+@media screen and (min-width: 641px) and (max-width: 740px){
+
+  #introwrap {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    padding-bottom: 200px;
+  }
+
+  .bigintro {
+    font-size: 4em;
+  }
+
+  div.wrap {
+    width: 300px;
+  }
+
+}
