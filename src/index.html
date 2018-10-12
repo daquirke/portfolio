@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/stars.css">
 
   <link rel="stylesheet" type="text/css" media="screen and (max-width: 640px)" href="css/devices/layout-modify1.css">
   <link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px)" href="css/devices/layout-modify.css">
@@ -33,24 +34,27 @@
       </ul>
     </nav>
     ---->
-    <h1 class="bigintro animated fadeInDownBig"><b>HI, I LIKE TO
+    <h1 class="bigintro animated tada delay-2s infinite"><b>HI, I LIKE TO
       <span
         class="txt-rotate"
         data-period="1000"
         data-rotate='[ "DEVELOP.", "CREATE.", "DESIGN.","THINK.","CODE.", "LIVE.", "EXPRESS."]'></span>
     </b></h1>
-    <h2 class="bigintrosub animated rubberBand">I'm Dave, Front End Web Developer and Designer. I love learning new skills and providing interactive and
-      functional designs..Welcome To My World </h2>
+    <h2 class="bigintrosub animated rubberBand"></h2>
     </div>
 
     <script type="text/javascript" src="js/particles.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
-    <div class="scroll"></div>
+  <div class="scroll"></div>
   <div class="about">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
     <h1 class="header wow bounceInDown"> ABOUT</h1>
-   <img src="css/me.png" class="aboutme wow slideInUp" height="900px" width="900px">
+   <img src="css/me.png" class="aboutme wow slideInUp" height="650px" width="650px">
     <div class="aboutwrap">
-    <p class="wow fadeInLeft">Hello, my name is David Quirke and I am a self-taught web designer, developer, and entrepreneur based in Ireland. </p>
+      <div class="textbox">
+    <h1 class="wow fadeInLeft">Hello, my name is David Quirke and I am a self-taught web designer, developer, and entrepreneur based in Ireland. </h1>
 
     <p class="wow fadeInLeft"> I always had a strong passion and curiosity for web technologies (CSS, HTML). My first exposure to the inner workings of website design and development
     was in 2013 when I undertook a course in Front End development in Cork City, Ireland. </p>
@@ -60,15 +64,15 @@
 
     <p class="wow fadeInLeft"> Spending the past two years in the technical support industry in online payments companies like Stripe, I have been learning programming concepts
       and building web and mobile applications in my spare time.
-
-    <br>
-    <p class="wow fadeInLeft"> You can find the current depth of my dive into programming below in the Portfolio section! </p>
-      <br>
+    </div>
     </div>
     </div>
   <div id="skiller">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
     <h1 class="header wow bounceInDown"> SKILLS </h1>
-
+    <div class="textbox">
     <section class="container content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -80,6 +84,7 @@
         </div>
       </div>
     </section>
+    </div>
 
 
     <section class="container content-section text-center">
@@ -128,40 +133,52 @@
           </div>
         </div>
       </div>
-    </section>
+      </section>
   </div>
   <div id="work">
     <h1 class="header wow bounceInDown"> WORK </h1>
-    <P class="wow fadeInRight"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, dolores esse eum eveniet excepturi magnam qui suscipit tempora. Atque autem dignissimos dolor doloribus
-      enim molestias omnis quae quod, quos voluptatem?</P>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <div id="main">
 
-    <p class="wow fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, consequatur distinctio eveniet incidunt laboriosam modi nulla odit quibusdam tempora tempore! Deleniti dolores error est hic minus non, porro repellendus tenetur ut voluptatum.
-      At delectus enim exercitationem vero, voluptatem voluptatum? Assumenda aut autem commodi consequuntur dolores, eaque
-      esse fugiat minus pariatur quibusdam quo, repudiandae sunt velit?</p>
+      <h1>My Latest Projects</h1>
 
+      <a class="arrow prev">Prev</a>
+      <a class="arrow next">Next</a>
+
+      <ul id="carousel">
+        <li class="visible"><a href=""><img src="../src/img/work.png" alt="" /></a></li>
+        <!--  Place additional items here -->
+      </ul>
+
+    </div>
   </div>
   <div id="contact">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
     <h1 class="header wow bounceInDown"> CONTACT </a></h1>
 
       <div class="wrap">
         <div>
           <label for="fname">First Name</label>
-          <input id="fname" type="text" class="firm wow fadeInUpBig"/>
+          <input id="fname" type="text" class="firm wow fadeIn"/>
         </div>
 
         <div>
           <label for="lname">Last Name</label>
-          <input id="lname" type="text" class="firm wow fadeInUpBig"/>
+          <input id="lname" type="text" class="firm wow fadeIn"/>
         </div>
 
         <div>
           <label for="email">Your Email</label>
-          <input id="email" type="text" class="firm wow fadeInUpBig"/>
+          <input id="email" type="text" class="firm wow fadeIn"/>
         </div>
 
       <div>
         <label for="form-message">Your Message</label>
-        <input id="form-message" type="text" class="firm wow fadeInUpBig"/>
+        <input id="form-message" type="text" class="firm wow fadeIn"/>
       </div>
 
         <button id="send"> Send </button>

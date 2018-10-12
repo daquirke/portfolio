@@ -13,8 +13,14 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Lato', bold, sans-serif;
-  color: #a49efb;
+  color: #078ded;
   overflow-x: hidden;
+  background-image: url("space.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 @font-face {
@@ -80,7 +86,7 @@ p{
 
 #particles-js{
   height: 100%;
-  background: #05041e;
+  // background-image: url("space.jpg");
   margin-bottom: 0;
   cursor: crosshair;
 }
@@ -114,6 +120,7 @@ p{
 
 .header{
   text-align: center;
+  letter-spacing: 6px;
   margin-bottom: 1%;
   margin-top: 3%;
   font-size: 3.5em;
@@ -126,22 +133,27 @@ p{
 }
 
 .about {
-  background-image: linear-gradient(#05041e, #070630);
+  background-blend-mode: normal;
   height: 100%;
   overflow: hidden;
   background-size: cover;
-  padding-bottom: 20%;
-}
-
-.about p{
+  padding-bottom: 10%;
   font-family: 'Lato','sans-serif';
   padding-left: 5%;
   margin-right: 0;
-  text-align: left;
+  text-align: center;
 }
 
-.aboutwrap{
-  margin-top: 5%;
+.textbox{
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+  border-radius:30px;
+  border: #solid 10px #000;
+  background-color: rgba(0, 0, 0, 0.17);
+  width:80%;
+  margin-top: -05%;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
 .aboutme{
@@ -149,8 +161,8 @@ p{
   float: right;
   margin-top: -5%;
   margin-left: -5%;
-  margin-right: -10%;
-  padding-bottom: 20%;
+  margin-right: -7%;
+  margin-bottom: 20%;
   animation-delay: .8s;
   -webkit-filter: drop-shadow(2px 2px 2px white);
   filter: drop-shadow(0px 0px 3px white);
@@ -160,14 +172,8 @@ p{
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 0%;
-  background-image: linear-gradient(#05041e, #070630);
-  background-size: cover;
   overflow: hidden;
   height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .skills{
@@ -178,7 +184,6 @@ p{
 }
 
 #work{
-  background-image: linear-gradient(#05041e, #070630);
   background-size: cover;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -187,29 +192,139 @@ p{
   overflow: hidden;
   color: lightyellow;
   height: 100%;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
 }
 
-#work p {
-  padding-left: 20%;
-  padding-right: 20%;
+/*----------------------------
+	The WORK section
+-----------------------------*/
+
+
+#main{
+  position:relative;
+  margin-bottom: 70px;
 }
+
+h1{
+  text-align:center;
+  margin-top:100px;
+}
+
+#carousel{
+  margin-top:200px;
+  text-align:center;
+
+  /* Initially hidden */
+  opacity:0;
+
+  /* Will animate the transition */
+  -moz-transition:0.4s opacity;
+  -webkit-transition:0.4s opacity;
+  transition:0.4s opacity;
+}
+
+#carousel.active{
+  opacity:1;
+}
+
+#carousel li{
+  display:none;
+  list-style:none;
+  width:500px;
+  height:500px;
+  margin: -82px 18px 0;
+  position:relative;
+
+  -moz-transition:0.4s all;
+  -webkit-transition:0.4s all;
+  transition:0.4s all;
+}
+
+#carousel li.visible{
+  display:inline-block;
+}
+
+#carousel li a img{
+  border:none;
+}
+
+#carousel li img{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+  position:relative;
+  z-index:10;
+}
+
+/* Creating the cradle below the thumbnails.
+	Uses % so that it grows with the image. */
+
+#carousel li:after{
+  content:'';
+  background:url('../img/cradle.png') no-repeat top center;
+  background-size:contain;
+  bottom: 4%;
+  content: "";
+  height: 50px;
+  left: -6.5%;
+  position: absolute;
+  right: -6.5%;
+  width: auto;
+  z-index: 1;
+}
+
+#carousel li:hover{
+  height: 197px;
+  margin-top: -152px;
+  width: 222px;
+}
+
+.arrow{
+  background:url('../img/arrows.png') no-repeat;
+  width:28px;
+  height:28px;
+  opacity:0.8;
+  text-indent:-999px;
+  overflow:hidden;
+  cursor:pointer;
+  display:none;
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-428px;
+  margin-top:25px;
+}
+
+.arrow:hover{
+  opacity:1;
+}
+
+.arrow.next{
+  margin-left:400px;
+  background-position:top right;
+}
+
+
+
 
 #contact{
   height: 100%;
   overflow: hidden;
-  background-image: linear-gradient(#060528, black);
-  padding-bottom: 0;
+  padding-bottom: 10%;
   margin-bottom: 0;
+  animation-delay: -1000ms;
 }
 
 footer{
   overflow: hidden;
   font-family: 'Lato', 'sans-serif';
-  height: auto;
+  height: 100px;
   text-align: center;
-  background-color: black;
-  color: #FFF;
+  background-image: linear-gradient(#000c1c, #000220);
+  color: #c9c9c9;
    -webkit-font-smoothing: antialiased;
 }
 
@@ -217,7 +332,8 @@ footer{
 /* SOCIAL ICONS */
 
 .fa {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   color: #002a8b;
   font-size: 35px;
   width: 35px;
@@ -327,7 +443,7 @@ input[type=text]:focus {
 }
 
 .firm{
-  transition-delay: .2s;
+  animation-duration: 500ms;
 }
 
 /* A better looking default horizontal rule
