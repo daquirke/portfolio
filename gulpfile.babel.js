@@ -117,7 +117,7 @@ gulp.task('copy:license', () =>
     .pipe(gulp.dest(dirs.dist))
 );
 
-gulp.task('copy:main.css', () => {
+gulp.task('copy:mainX.css', () => {
 
   const banner = `/*! HTML5 Boilerplate v${pkg.version} | ${pkg.license} License | ${pkg.homepage} */\n\n`;
 

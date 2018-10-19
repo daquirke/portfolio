@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "package-json": "^5.0.0",
-    "wow": "0.0.6",
+    "sass": "^1.14.2",
     "wowjs": "^1.1.3"
   }
 }
