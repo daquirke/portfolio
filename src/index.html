@@ -20,19 +20,20 @@
   <link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px)" href="css/devices/layout-modify.css">
 
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 </head>
-
-<body><nav class="sidebar">
+<body>
+<nav class="sidebar">
       <span class="open-slide">
         <a href="#" onclick="openSlideMenu(); return false">
-          <svg class="nav-icon" width="30" height="30">
+          <svg class="nav-icon" width="35" height="35s">
             <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
             <path d="M0, 14 30,14" stroke="#fff" stroke-width="5"/>
             <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
-          </svg></a></span></nav>
+          </svg></a></span>
+</nav>
 
 <div id="side-menu" class="side-nav">
   <a href="#" class="btn-close" onclick="closeSlideMenu(); return false">&times;</a>
@@ -48,39 +49,34 @@
       <span
         class="txt-rotate"
         data-period="1000"
-        data-rotate='[ "DEVELOP.", "CREATE.", "DESIGN.","THINK.","CODE.", "LIVE.", "EXPRESS."]'></span>
-    </b></h1>
-    <h2 class="bigintrosub animated rubberBand"></h2>
-
+        data-rotate='[ "DEVELOP.", "CREATE.", "DESIGN.","THINK.","CODE.", "SOLVE.","LEARN.",
+        "TRAVEL.", "EXPRESS."]'>
+      </span> </b>
+    </h1>
     <script type="text/javascript" src="js/particles.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
-    <div class="intro-buttons">
-      <input class="empty-btn" type="submit" value="Empty">
-      <input class="contact-btn" type="submit" value="Contact Me">
-    </div>
-    </div>
-  <div class="scroll" onclick="smoothScroll(document.getElementById('about'))"></div>
+    <script type="text/javascript" src="js/app.js"></script>
+  </div>
+</div>
+
+<div class="scroll" onclick="smoothScroll()"></div>
   <div id="about">
     <div id='stars'></div>
     <div id='stars2'></div>
     <div id='stars3'></div>
     <h1 class="header wow bounceInDown"> ABOUT</h1>
-   <img src="css/me.png" class="aboutme wow fadeInRightBig" height="650px" width="650px">
+      <img src="img/me.png" class="aboutme wow fadeInRightBig" height="650px" width="650px">
     <div class="aboutwrap">
       <div class="textbox-about">
-    <h2 class="wow fadeInLeft">I'm Dave, self-taught developer and UI designer based in Ireland. </h2>
-
-    <p class="wow fadeInLeft"> I always had a strong passion and curiosity for web technologies. My first exposure to the inner workings of website design and development
+        <h2 class="wow fadeInLeft">I'm Dave, self-taught developer and UI designer based in Ireland. </h2>
+          <p class="wow fadeInLeft"> I always had a strong passion and curiosity for web technologies. My first exposure to the inner workings of website design and development
     was in 2013 when I undertook a course in Front End development in Cork City, Ireland. </p>
-
-    <p class="wow fadeInLeft"> Basically I love everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small
+          <p class="wow fadeInLeft"> Basically I love everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small
       &amp; medium Web Apps, animations and coding layouts. I am currently learning React framework.</p>
-
-    <p class="wow fadeInLeft"> Spending the past two years in the technical support industry in online payments companies like Stripe, I have been learning programming concepts
+          <p class="wow fadeInLeft"> Spending the past two years in the technical support industry in online payments companies like Stripe, I have been learning programming concepts
       and building web and mobile applications in my spare time.
     </div>
-    </div>
-    </div>
+  </div>
+</div>
   <div id="skiller">
     <div id='stars'></div>
     <div id='stars2'></div>
@@ -88,18 +84,17 @@
     <h1 class="header wow bounceInDown"> SKILLS </h1>
     <img src="img/module.png" class="spacers wow swing" height="300px" width="450px">
     <img src="img/astro.png" class="astro" height="400px" width="300px">
-    <div class="textbox-skills">
-    <section class="container content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="text-left">
-
-              <h2>I have included this animated skillbar using JQuery and CSS styling as a more visual representation of my web design skills that I
-                have acquired. I hope you enjoy it. </h2>
+      <div class="textbox-skills">
+        <section class="container content-section text-center">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="text-left">
+                  <h3>I have included this animated skillbar using JQuery and CSS styling as a more visual representation of my web design skills that I
+                have acquired. I hope you enjoy it. </h3>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
     <section class="container content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -152,47 +147,35 @@
     </div>
   </div>
 
+<!---
   <div id="work">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
     <h1 class="header-work wow bounceInDown"> WORK </h1>
-    <!---
-    <div id="main">
-      <h3>My Latest Projects</h3>
-      <a class="arrow prev">Prev</a>
-      <a class="arrow next">Next</a>
-      <ul id="carousel">
-        <li class="visible"><a href=""><img src="../src/img/work.png" alt="" /></a></li>
-        <li class="visible"><a href=""><img src="../src/img/work.png" alt="" /></a></li>
-        <li class="visible"><a href=""><img src="../src/img/work.png" alt="" /></a></li>
-
-      </ul>
-
+    <div class="space-wrap">
+    <img src="img/window.png" class="space-window" height="387px" width="600px">
+    <img src="img/window.png" class="space-window" height="387px" width="600px">
+    <img src="img/window.png" class="space-window" height="387px" width="600px">
     </div>
-    <div id='hero'>
-      <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
-      <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
-      <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
-      <div class='layer-3 layer' data-depth='0.80' data-type='parallax'></div>
-      <div class='layer-overlay layer' data-depth='0.85' data-type='parallax'></div>
-      <div class='layer-4 layer' data-depth='1.00' data-type='parallax'></div>
-    </div>
-    --->
-
   </div>
+  --->
+
   <div id="contact">
     <h1 class="header wow bounceInDown"> CONTACT </h1>
 
     <div class="contact-wrap">
-          <form class="contact-form">
+          <form class="contact-form" action="https://formspree.io/david.qrk@gmail.com" method="POST">
             <div class="form-field">
-              <input id="name" class="input-text js-input" type="text" required>
+              <input id="name" class="input-text js-input" type="text" name="name" required>
               <label class="label" for="name">Name</label>
             </div>
             <div class="form-field">
-              <input id="email" class="input-text js-input" type="email" required>
+              <input id="email" class="input-text js-input" type="email" name="email" required>
               <label class="label" for="email">E-mail</label>
             </div>
             <div class="form-field">
-              <input id="message" class="input-text js-input" type="text" required>
+              <input id="message" class="input-text js-input" type="text" name="message" required>
               <label class="label" for="message">Message</label>
             </div>
             <div class="form-field align-center">
@@ -200,7 +183,7 @@
             </div>
           </form>
       </div>
-    <img src="img/observatory.png" class="observe" height="500px" width="600px">
+    <img src="img/observatory.png" class="observe" height="422px" width="594px">
     <div class="navigator"></div>
     </div>
 
@@ -213,7 +196,6 @@
       </ul>
     Copyright © 2018 David Quirke. | All Rights Reserved. | Web Design, Web Application Development & UX Design | Tipperary | Ireland
   </footer>
-    </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <script src="../node_modules/wowjs/dist/wow.js"></script>
