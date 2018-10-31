@@ -2,20 +2,6 @@ function smoothScroll() {
   document.getElementById("work");
 }
 
-
-/* Slideout Navbar  */
-
-function openSlideMenu(){
-  document.getElementById('side-menu').style.width= '15%';
-  document.getElementById('main-wrap').style.marginLeft = '15%';
-  return false;
-}
-
-function closeSlideMenu(){
-  document.getElementById('side-menu').style.width= '0px';
-  document.getElementById('main-wrap').style.marginLeft = '0px';
-}
-
 /* skills bar */
 
 

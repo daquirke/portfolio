@@ -25,24 +25,15 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<nav class="sidebar">
-      <span class="open-slide">
-        <a href="#" onclick="openSlideMenu(); return false">
-          <svg class="nav-icon" width="35" height="35s">
-            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-            <path d="M0, 14 30,14" stroke="#fff" stroke-width="5"/>
-            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
-          </svg></a></span>
+<nav class="primary-nav  primary-nav-header">
+  <ul>
+    <li><a href="/" class="about">About</a></li>
+    <li><a href="/" class="skiller">About</a></li>
+    <li><a href="/work" class="work">Work</a></li>
+    <li><a href="/play" class="play">Play</a></li>
+    <li><a href="/contact" class="contact">Contact</a></li>
+  </ul>
 </nav>
-
-<div id="side-menu" class="side-nav">
-  <a href="#" class="btn-close" onclick="closeSlideMenu(); return false">&times;</a>
-  <a href="#particles-js">Home</a>
-  <a href="#about">About</a>
-  <a href="#skiller">Skills</a>
-  <a href="#work">Work</a>
-  <a href="#contact">Contact</a>
-</div>
 <div id="main-wrap">
   <div id="particles-js">
     <h1 class="bigintro animated swing "><b>HI, I LIKE TO
@@ -77,13 +68,15 @@
     </div>
   </div>
 </div>
-  <div id="skiller">
+<div id="skiller">
     <div id='stars'></div>
     <div id='stars2'></div>
     <div id='stars3'></div>
     <h1 class="header wow bounceInDown"> SKILLS </h1>
+  <div class="image-store">
     <img src="img/module.png" class="spacers wow swing" height="300px" width="450px">
     <img src="img/astro.png" class="astro" height="400px" width="300px">
+  </div>
       <div class="textbox-skills">
         <section class="container content-section text-center">
           <div class="row">
@@ -147,23 +140,11 @@
     </div>
   </div>
 
-<!---
-  <div id="work">
+  <div id="contact">
     <div id='stars'></div>
     <div id='stars2'></div>
     <div id='stars3'></div>
-    <h1 class="header-work wow bounceInDown"> WORK </h1>
-    <div class="space-wrap">
-    <img src="img/window.png" class="space-window" height="387px" width="600px">
-    <img src="img/window.png" class="space-window" height="387px" width="600px">
-    <img src="img/window.png" class="space-window" height="387px" width="600px">
-    </div>
-  </div>
-  --->
-
-  <div id="contact">
     <h1 class="header wow bounceInDown"> CONTACT </h1>
-
     <div class="contact-wrap">
           <form class="contact-form" action="https://formspree.io/david.qrk@gmail.com" method="POST">
             <div class="form-field">
