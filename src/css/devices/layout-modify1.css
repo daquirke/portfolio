@@ -1,23 +1,9 @@
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
 
   p {
     font-size: 18px;
   }
 
-  #introwrap {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    right: 10%;
-  }
-
-  .bigintro {
-    font-size: 3.6em;
-  }
-
-  div.wrap {
-    width: 300px;
-  }
 
 }
 

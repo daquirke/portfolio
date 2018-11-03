@@ -27,15 +27,15 @@
 <body>
 <nav class="primary-nav  primary-nav-header">
   <ul>
-    <li><a href="/" class="about">About</a></li>
-    <li><a href="/" class="skiller">About</a></li>
-    <li><a href="/work" class="work">Work</a></li>
-    <li><a href="/play" class="play">Play</a></li>
-    <li><a href="/contact" class="contact">Contact</a></li>
+    <li><a href="#about" class="about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#work" class="work">Work</a></li>
+    <li><a href="#contact" class="contact">Contact</a></li>
   </ul>
 </nav>
 <div id="main-wrap">
   <div id="particles-js">
+    <div class="small-head"></div>
     <h1 class="bigintro animated swing "><b>HI, I LIKE TO
       <span
         class="txt-rotate"
@@ -50,15 +50,18 @@
 </div>
 
 <div class="scroll" onclick="smoothScroll()"></div>
-  <div id="about">
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-    <h1 class="header wow bounceInDown"> ABOUT</h1>
-      <img src="img/me.png" class="aboutme wow fadeInRightBig" height="650px" width="650px">
-    <div class="aboutwrap">
+<div class="divide">
+  <div class="text-divide-wrap">
+  <h3 class="wow fadeIn">I'm Dave, self-taught <span class="wow bounce red">developer</span>
+    and UI <span class="red">designer</span> based in Ireland. </h3>
+  </div>
+</div>
+  <h1 class="header wow bounceInDown"> ABOUT</h1>
+<div id="about">
+    <div class="head-image">
+    </div>
+    <div class="about-text-wrap">
       <div class="textbox-about">
-        <h2 class="wow fadeInLeft">I'm Dave, self-taught developer and UI designer based in Ireland. </h2>
           <p class="wow fadeInLeft"> I always had a strong passion and curiosity for web technologies. My first exposure to the inner workings of website design and development
     was in 2013 when I undertook a course in Front End development in Cork City, Ireland. </p>
           <p class="wow fadeInLeft"> Basically I love everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small
@@ -68,13 +71,18 @@
     </div>
   </div>
 </div>
-<div id="skiller">
+<div class="divide">
+  <div class="text-divide-wrap">
+  <h3 class="wow fadeIn">Turning <span class="red">coffee</span>
+    into <span class="red">code</span> is a daily routine! </h3>
+  </div>
+</div>
+<div id="skills">
     <div id='stars'></div>
     <div id='stars2'></div>
     <div id='stars3'></div>
-    <h1 class="header wow bounceInDown"> SKILLS </h1>
+  <h1 class="header wow bounceInDown"> Skills</h1>
   <div class="image-store">
-    <img src="img/module.png" class="spacers wow swing" height="300px" width="450px">
     <img src="img/astro.png" class="astro" height="400px" width="300px">
   </div>
       <div class="textbox-skills">
@@ -82,8 +90,8 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <div class="text-left">
-                  <h3>I have included this animated skillbar using JQuery and CSS styling as a more visual representation of my web design skills that I
-                have acquired. I hope you enjoy it. </h3>
+                  <p>I have included this animated skillbar using JQuery and CSS styling as a more visual representation of my web design skills that I
+                have acquired. I hope you enjoy it. </p>
               </div>
             </div>
           </div>
@@ -135,18 +143,29 @@
         </div>
       </div>
       </section>
-    <div class="block-bottom">
-    </div>
     </div>
   </div>
-
-  <div id="contact">
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-    <h1 class="header wow bounceInDown"> CONTACT </h1>
+<div id="work">
+  <div class="header-work">
+  <h1 class="header wow bounceInDown"> Work</h1>
+  </div>
+  <div id="wrapper">
+    <div id="stripe"></div>
+    <div id="square-one">
+      <img src="../src/img/work-brandpug.png" class="laptop-screen">
+    </div>
+    <div id="square-two">
+      <img src="../src/img/work.png" class="laptop-screen">
+    </div>
+    <div id="cross"></div>
+  </div>
+</div>
+<section id="contact">
+  <section class="header-contain">
+    <h1 class="header-contact wow bounceInDown"> Contact</h1>
+  </section>
     <div class="contact-wrap">
-          <form class="contact-form" action="https://formspree.io/david.qrk@gmail.com" method="POST">
+          <form class="contact-form" method="POST" action="https://formspree.io/david.qrk@gmail.com">
             <div class="form-field">
               <input id="name" class="input-text js-input" type="text" name="name" required>
               <label class="label" for="name">Name</label>
@@ -164,19 +183,18 @@
             </div>
           </form>
       </div>
-    <img src="img/observatory.png" class="observe" height="422px" width="594px">
+  <div class="observe"><img src="img/observatory.png" height="422px" width="594px"></div>
     <div class="navigator"></div>
-    </div>
-
-  <footer>
-      <ul class="social-icons">
-        <a href="https://www.linkedin.com/in/david-quirke-915b14127/" class="fa fa-linkedin"></a>
-        <a href="https://github.com/daquirke/" class="	fa fa-github"></a>
-        <a href="https://www.instagram.com/offthefags/" class="	fa fa-instagram"></a>
-        <a href="https://www.facebook.com/DavetheRasta" class="	fa fa-facebook-square"></a>
-      </ul>
-    Copyright © 2018 David Quirke. | All Rights Reserved. | Web Design, Web Application Development & UX Design | Tipperary | Ireland
-  </footer>
+    </section>
+<footer>
+<ul class="social-icons">
+  <a href="https://www.linkedin.com/in/david-quirke-915b14127/" class="fa fa-linkedin"></a>
+  <a href="https://github.com/daquirke/" class="	fa fa-github"></a>
+  <a href="https://www.instagram.com/offthefags/" class="	fa fa-instagram"></a>
+  <a href="https://www.facebook.com/DavetheRasta" class="	fa fa-facebook-square"></a>
+</ul>
+&copy; 2018 David Quirke. &ndash; All Rights Reserved. | Web Design, Web Application Development & UX Design | Tipperary | Ireland
+</footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <script src="../node_modules/wowjs/dist/wow.js"></script>
