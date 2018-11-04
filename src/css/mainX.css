@@ -125,6 +125,19 @@ h1, h2{
     font-size: 4em;
     top: 50%;
   }
+
+.bigintro2{
+  top:40%;
+  font-family: 'LeagueSpartan-Bold', sans-serif;
+  font-size: 6.4em;
+  text-align: center;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  color: white;
+  opacity: 1;
+}
+
   .small-head{
     position: absolute;
     content: url("../img/me-scroll.png");
