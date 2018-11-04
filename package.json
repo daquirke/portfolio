@@ -50,7 +50,8 @@
   "name": "html5-boilerplate",
   "scripts": {
     "build": "gulp build",
-    "test": "gulp archive && mocha --require babel-core/register --reporter spec --timeout 5000"
+    "test": "gulp archive && mocha --require babel-core/register --reporter spec --timeout 5000",
+    "start": "node app.js"
   },
   "version": "6.1.0",
   "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
