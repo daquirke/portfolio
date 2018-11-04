@@ -3,6 +3,7 @@ var app     = express();
 
 app.use(express.static(__dirname + '/src'));
 app.use(express.static(__dirname + '/node_modules'));
+app.use(express.static(__dirname + '/portfolio'));
 //host all the shit in src using express server
 
 app.get('/',function(req,res){

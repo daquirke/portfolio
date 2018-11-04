@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bbbb373-28c5-4128-b53a-5969ec55df39" name="Default" comment="added yaml file" />
+    <list default="true" id="5bbbb373-28c5-4128-b53a-5969ec55df39" name="Default" comment="added yaml file">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="200">
+              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -77,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -214,6 +216,12 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,19 +243,19 @@
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dave\Desktop\Web Development\Bootstrap 4" />
-      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio\src\img" />
-      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio\src\js" />
-      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\src\js" />
-      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\src\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio\src\img" />
       <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio\src\css" />
       <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio\src" />
       <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\src\css" />
       <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio" />
+      <recent name="C:\Users\Dave\Desktop\Web Development\Bootstrap 4" />
+      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio\src\img" />
+      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\portfolio\src\js" />
+      <recent name="C:\Users\Dave\Desktop\WEBSTORM PROJECTS\portfolio\src\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,7 +324,7 @@
       <workItem from="1541148107733" duration="41059000" />
       <workItem from="1541283003665" duration="2321000" />
       <workItem from="1541320005784" duration="1610000" />
-      <workItem from="1541353552881" duration="5315000" />
+      <workItem from="1541353552881" duration="5747000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1539340125052</created>
@@ -329,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258822000" />
+    <option name="totallyTimeSpent" value="259254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,6 +350,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.21348314" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32905984" />
@@ -352,7 +361,7 @@
       <window_info id="npm" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32905984" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32905984" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -558,17 +567,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="200">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
