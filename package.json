@@ -67,6 +67,7 @@
     "url": "https://github.com/h5bp/html5-boilerplate.git"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "package-json": "^5.0.0",
     "sass": "^1.14.2",
     "wowjs": "^1.1.3"
