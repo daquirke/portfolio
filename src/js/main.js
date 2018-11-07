@@ -116,3 +116,33 @@ $('input').on('focusout', function() {
   }
 });
 
+
+// nav bar
+
+$(window).scroll(function(event) {
+  function navBar()
+  {
+    var scroll = $(window).scrollTop();
+    if(scroll > 50)
+    {
+      $(".nav-custom").fadeIn("slow").addClass("hide");
+    }
+    else
+    {
+      $(".nav-custom").fadeOut("slow").removeClass("hide");
+    }
+
+    clearTimeout($.data(this, 'scrollTimer'));
+    $.data(this, 'scrollTimer', setTimeout(function() {
+      if ($('.nav-custom').is(':hover')) {
+        navBar();
+      }
+      else
+      {
+        $(".nav-custom").fadeOut("slow");
+      }
+    }, 2000));
+  }
+  navBar();
+});
+
