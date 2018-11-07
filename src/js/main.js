@@ -123,7 +123,7 @@ $(window).scroll(function(event) {
   function navBar()
   {
     var scroll = $(window).scrollTop();
-    if(scroll > 50)
+    if(scroll > 70)
     {
       $(".nav-custom").fadeIn("slow").addClass("hide");
     }
@@ -141,7 +141,7 @@ $(window).scroll(function(event) {
       {
         $(".nav-custom").fadeOut("slow");
       }
-    }, 2000));
+    }, 4000));
   }
   navBar();
 });
