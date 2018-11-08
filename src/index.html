@@ -3,16 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>David Quirke - Portfolio</title>
+  <title>David Quirke - Web Developer</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="site.webmanifest">
-
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/mainX.css">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="css/stars.css">
   <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
@@ -22,29 +18,26 @@
 <div class="nav-custom">
   <nav class="primary-nav  primary-nav-header">
     <ul>
-      <li><a href="#about" class="about">About</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#work" class="work">Work</a></li>
       <li><a href="#contact" class="contact">Contact</a></li>
     </ul>
   </nav>
 </div>
   <div id="particles-js">
-    <div class=" small-head"></div>
+    <div class="small-head"></div>
     <h1 class="big-intro animated swing ">I LIKE TO
       <span
         class="txt-rotate"
         data-period="1000"
-        data-rotate='[ "DEVELOP.", "CREATE.", "DESIGN.","THINK.","CODE.", "SOLVE.","LEARN.",
-        "TRAVEL.", "EXPRESS."]'>
+        data-rotate='[ "DEVELOP.", "CREATE.", "DESIGN.","CODE.", "SOLVE.","LEARN.","THINK.", "TRAVEL.", "EXPRESS."]'>
       </span></h1>
-    <script type="text/javascript" src="js/particles.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
   </div>
 
 <div class="scroll"></div>
 <div class="divide">
-  <div class="text-divide-wrap">
+  <div class="text-divide-wrap wow tada">
   <h3>I'm Dave, self-taught <span class="red">developer</span>
     and UI <span class="red">designer</span> based in Ireland. </h3>
   </div>
@@ -57,17 +50,17 @@
   <div class="head-image"></div>
   <div class="about-text-wrap">
       <div class="textbox-about">
-          <p class="wow fadeInLeft"> I always had a strong passion and curiosity for web technologies. My first exposure to the inner workings of website design and development
-    was in 2013 when I undertook a course in Front End development in Cork City, Ireland. </p>
-          <p class="wow fadeInLeft"> Basically I love everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small
-      &amp; medium Web Apps, animations and coding layouts. I am currently learning React framework.</p>
-          <p class="wow fadeInLeft"> Spending the past two years in the technical support industry in online payments companies like Stripe, I have been learning programming concepts
-      and building web and mobile applications in my spare time.
+          <p class="wow fadeInRight"> I always had a strong passion and curiosity for web technologies. My first exposure to the inner workings of website design and development
+              was in 2013 when I undertook a course in Front End development in Cork City, Ireland. </p>
+          <p class="wow fadeInRight"> Basically I love everything related with this side of web. HTML, CSS, JS (ES5,ES6), building small
+              &amp; medium Web Apps, animations and coding layouts. I am currently learning React framework.</p>
+          <p class="wow fadeInRight"> Spending the past two years in the technical support industry in online payments companies like Stripe, I have been learning programming concepts
+              and building web and mobile applications in my spare time.
       </div>
   </div>
 </div>
 <div class="divide">
-  <div class="text-divide-wrap">
+  <div class="text-divide-wrap wow tada">
     <h3 class="wow fadeIn">Turning <span class="red">coffee</span>
     into <span class="red">code</span> is a daily routine! </h3>
   </div>
@@ -78,97 +71,81 @@
     <div class='stars3'></div>
   <h1 class="header wow bounceInDown"> Skills</h1>
       <div class="textbox-skills">
-        <section class="container content-section text-center">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="text-left">
-                  <p>I have included this animated skillbar using JQuery and CSS styling as a more visual representation of my web design skills that I
-                have acquired. I hope you enjoy it. </p>
+        <p class="animated fadeIn">I have included this animated skills bar using pure CSS animation and styling as a more visual representation of my web design skills that I
+          have acquired. I hope you enjoy it. </p>
+        <section id="skill-bar-wrap">
+            <div class="skill">
+              <h3 class="wow fadeInUp">HTML5</h3>
+              <div class="skill-bar skill1 wow slideInLeft">
+                <span class="skill-count1 wow rollIn">95%</span>
               </div>
             </div>
-          </div>
+            <div class="skill">
+              <h3 class="wow fadeInUp">CSS3</h3>
+              <div class="skill-bar skill2 wow slideInLeft">
+                <span class="skill-count2 wow rollIn">85%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h3 class="wow fadeInUp">JavaScript (ES5/ES6)</h3>
+              <div class="skill-bar skill3 wow slideInLeft">
+                <span class="skill-count3 wow rollIn">75%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h3 class="wow fadeInUp">Jquery</h3>
+              <div class="skill-bar skill4 wow slideInLeft">
+                <span class="skill-count4 wow rollIn">65%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h3 class="wow fadeInUp">Wordpress</h3>
+              <div class="skill-bar skill5 wow slideInLeft">
+                <span class="skill-count5 wow rollIn">80%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h3 class="wow fadeInUp">Photoshop</h3>
+              <div class="skill-bar skill6 wow slideInLeft">
+                <span class="skill-count6 wow rollIn">90%</span>
+              </div>
+            </div>
         </section>
-    <section class="container content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div id="skill-bar-wrapper">
-            <div class="text-left">
-
-              HTML5<span style="float:right;">95%</span>
-              <div class="skillbar-container clearfix" data-percent="95%">
-                <div class="skills" style="background: #87cefa;"></div>
-              </div>
-
-              CSS<span style="float:right;">85%</span>
-              <div class="skillbar-container clearfix" data-percent="85%">
-                <div class="skills" style="background: #87cefa;"></div>
-              </div>
-
-              JavaScript (ES5/ES6)<span style="float:right;">60%</span>
-              <div class="skillbar-container clearfix" data-percent="60%">
-                <div class="skills" style="background: #87cefa;"></div>
-              </div>
-
-              Wordpress<span style="float:right;">75%</span>
-              <div class="skillbar-container clearfix" data-percent="75%">
-                <div class="skills" style="background: #87cefa;"></div>
-              </div>
-
-              jQuery<span style="float:right;">10%</span>
-              <div class="skillbar-container clearfix" data-percent="10%">
-                <div class="skills" style="background: #87cefa;"></div>
-              </div>
-
-
-              React<span style="float:right;">5%</span>
-              <div class="skillbar-container clearfix" data-percent="5%">
-                <div class="skills" style="background: #87cefa;"></div>
-              </div>
-
-              Handlebars<span style="float:right;">50%</span>
-              <div class="skillbar-container clearfix" data-percent="50%">
-                <div class="skills" style="background: #87cefa"></div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
-    </div>
-  </div>
-<div class="divide">
-  <div class="text-divide-wrap">
-    <h3 class="wow fadeIn">Feel free <span class="red"> reach</span> out and get in touch with me today! </h3>
   </div>
 </div>
-<section id="contact">
+<div class="divide">
+  <div class="text-divide-wrap">
+    <h3 class="wow heartBeat">Feel free to <span class="red"><a href="#contact"> reach</a></span>
+      out and get in touch with me today! </h3>
+  </div>
+</div>
+<div id="contact">
   <div class='stars'></div>
   <div class='stars2'></div>
   <div class='stars3'></div>
-    <h1 class="header-contact wow bounceInDown"> Contact</h1>
-    <div class="contact-wrap">
-          <form class="contact-form" method="POST" action="https://formspree.io/david.qrk@gmail.com">
-            <div class="form-field">
-              <input id="name" class="input-text js-input" type="text" name="name" required>
-              <label class="label" for="name">Name</label>
-            </div>
-            <div class="form-field">
-              <input id="email" class="input-text js-input" type="email" name="email" required>
-              <label class="label" for="email">E-mail</label>
-            </div>
-            <div class="form-field">
-              <input id="message" class="input-text js-input" type="text"rows="4" cols="50" name="message" required>
-              <label class="label" for="message">Message</label>
-            </div>
-            <div class="form-field align-center">
-              <input class="submit-btn" type="submit" value="Submit">
-            </div>
-          </form>
+  <h1 class="header-contact wow bounceInDown"> Contact</h1>
+  <div class="contact-wrap">
+    <form class="contact-form" method="POST" action="https://formspree.io/david.qrk@gmail.com">
+      <div class="form-field">
+        <input id="name" class="input-text js-input" type="text" name="name" required>
+          <label class="label" for="name">Name</label>
+          </div>
+      <div class="form-field">
+        <input id="email" class="input-text js-input" type="email" name="email" required>
+        <label class="label" for="email">E-mail</label>
       </div>
+      <div class="form-field message">
+        <input id="message" class="input-text js-input" name="message" required>
+        <label class="label" for="message">Message</label>
+      </div>
+      <div class="form-field align-center wow shake">
+        <input class="submit-btn" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
   <div class="observe"><img src="img/observatory.png" height="422px" width="594px"></div>
-    <div class="navigator"></div>
-    </section>
+  <div class="navigator"></div>
+</div>
 <footer>
 <ul class="social-icons">
   <a href="https://www.linkedin.com/in/david-quirke-915b14127/" class="fa fa-linkedin"></a>
@@ -176,18 +153,18 @@
   <a href="https://www.instagram.com/offthefags/" class="	fa fa-instagram"></a>
   <a href="https://www.facebook.com/DavetheRasta" class="	fa fa-facebook-square"></a>
 </ul>
-&copy; 2018 David Quirke. &ndash; All Rights Reserved. | Web Design, Web Application Development & UX Design | Tipperary | Ireland
+&copy; 2018 David Quirke. | All Rights Reserved. | Web Design, Web Application Development & UX Design | Tipperary | Ireland
 </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="../node_modules/wowjs/dist/wow.js"></script>
-  <script> new WOW().init(); </script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be site's ID. -->
-
-  <script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/particles.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script src="wow.min.js"></script>
+<script> new WOW().init(); </script>
+<!-- Google Analytics: change UA-XXXXX-Y to be site's ID. -->
+<script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    ga('create', 'www.davidquirke.design', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
