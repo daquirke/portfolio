@@ -15,12 +15,14 @@
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
+
 <div class="nav-custom">
   <nav class="primary-nav  primary-nav-header">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
       <li><a href="#contact" class="contact">Contact</a></li>
     </ul>
   </nav>
@@ -37,7 +39,7 @@
 
 <div class="scroll"></div>
 <div class="divide">
-  <div class="text-divide-wrap wow tada">
+  <div class="text-divide-wrap wow fadeInUp">
   <h3>I'm Dave, self-taught <span class="red">developer</span>
     and UI <span class="red">designer</span> based in Ireland. </h3>
   </div>
@@ -60,7 +62,7 @@
   </div>
 </div>
 <div class="divide">
-  <div class="text-divide-wrap wow tada">
+  <div class="text-divide-wrap wow fadeInUp">
     <h3 class="wow fadeIn">Turning <span class="red">coffee</span>
     into <span class="red">code</span> is a daily routine! </h3>
   </div>
@@ -115,7 +117,36 @@
 </div>
 <div class="divide">
   <div class="text-divide-wrap">
-    <h3 class="wow heartBeat">Feel free to <span class="red"><a href="#contact"> reach</a></span>
+    <h3 class="wow fadeInUp">Check out some recent <span class="red">projects</span>
+     work I have been up to below!</h3>
+  </div>
+</div>
+<div id="work">
+    <h1 class="header wow bounceInDown"> Work</h1>
+
+  <div id="wrapper">
+    <div id="square-zero" onclick="window.location ='http://www.sweet-tooth.online';"  style="cursor: pointer;">
+      <img src="../src/img/work-sweettooth.png" class="laptop-screen">
+      <p> SweetTooth</p>
+    </div>
+    <div id="square-one" onclick="window.location = 'http://www.brandpug.com';">
+      <img src="../src/img/work-brandpug.png" class="laptop-screen">
+      <p> Brandpug</p>
+    </div>
+    <div id="square-two" onclick="window.location = 'http://www.sparkleoutlet.com';">
+      <img src="../src/img/work.png" class="laptop-screen">
+      <p> SparkleOutlet</p>
+    </div>
+    <div id="square-three" onclick="window.location = 'http://www.ggg.com';">
+      <img src="../src/img/work.png" class="laptop-screen">
+      <p> Coming Soon</p>
+    </div>
+  </div>
+</div>
+
+<div class="divide">
+  <div class="text-divide-wrap">
+    <h3 class="wow fadeInUp">Feel free to <span class="red"><a href="#contact"> reach</a></span>
       out and get in touch with me today! </h3>
   </div>
 </div>
@@ -125,7 +156,7 @@
   <div class='stars3'></div>
   <h1 class="header-contact wow bounceInDown"> Contact</h1>
   <div class="contact-wrap">
-    <form class="contact-form" method="POST" action="https://formspree.io/david.qrk@gmail.com">
+    <form class="contact-form" action="https://formspree.io/david.qrk@gmail.com"  method="POST">
       <div class="form-field">
         <input id="name" class="input-text js-input" type="text" name="name" required>
           <label class="label" for="name">Name</label>
@@ -135,10 +166,10 @@
         <label class="label" for="email">E-mail</label>
       </div>
       <div class="form-field message">
-        <input id="message" class="input-text js-input" name="message" required>
+        <textarea id="message" class="input-text js-input" rows="5" name="message" required></textarea>
         <label class="label" for="message">Message</label>
       </div>
-      <div class="form-field align-center wow shake">
+      <div class="form-field align-center">
         <input class="submit-btn" type="submit" value="Submit">
       </div>
     </form>

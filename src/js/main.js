@@ -1,4 +1,5 @@
 
+
 /* TYPING HEADER */
 
 var TxtRotate = function(el, toRotate, period) {
