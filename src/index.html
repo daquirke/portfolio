@@ -13,11 +13,12 @@
   <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
-
+<div class="border"></div>
 <div class="nav-custom">
-  <nav class="primary-nav  primary-nav-header">
+  <nav class="primary-nav primary-nav-header">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -29,7 +30,7 @@
 </div>
   <div id="particles-js">
     <div class="small-head"></div>
-    <h1 class="big-intro animated swing ">I LIKE TO
+    <h1 class="big-intro animated bounceInUp ">I LIKE TO
       <span
         class="txt-rotate"
         data-period="1000"
@@ -44,7 +45,7 @@
     and UI <span class="red">designer</span> based in Ireland. </h3>
   </div>
 </div>
-<h1 class="header wow bounceInDown"> ABOUT</h1>
+<h1 class="header wow bounceInUp"> ABOUT</h1>
 <div id="about">
   <div class='stars'></div>
   <div class='stars2'></div>
@@ -71,7 +72,7 @@
     <div class='stars'></div>
     <div class='stars2'></div>
     <div class='stars3'></div>
-  <h1 class="header wow bounceInDown"> Skills</h1>
+  <h1 class="header wow bounceInUp"> Skills</h1>
       <div class="textbox-skills">
         <p class="animated fadeIn">I have included this animated skills bar using pure CSS animation and styling as a more visual representation of my web design skills that I
           have acquired. I hope you enjoy it. </p>
@@ -122,29 +123,27 @@
   </div>
 </div>
 <div id="work">
-    <h1 class="header wow bounceInDown"> Work</h1>
+    <h1 class="header wow bounceInUp"> Work</h1>
 
   <div id="wrapper">
     <div id="square-zero" onclick="window.location ='http://www.sweet-tooth.online';"  style="cursor: pointer;">
-      <img src="../src/img/work-sweettooth.png" class="laptop-screen">
+      <img src="img/work-sweettooth.png" class="laptop-screen">
       <p> SweetTooth</p>
     </div>
     <div id="square-one" onclick="window.location = 'http://www.brandpug.com';">
-      <img src="../src/img/work-brandpug.png" class="laptop-screen">
+      <img src="img/work-brandpug.png" class="laptop-screen">
       <p> Brandpug</p>
     </div>
     <div id="square-two" onclick="window.location = 'http://www.sparkleoutlet.com';">
-      <img src="../src/img/work.png" class="laptop-screen">
+      <img src="img/work.png" class="laptop-screen">
       <p> SparkleOutlet</p>
     </div>
-    <div id="square-three" onclick="window.location = 'http://www.ggg.com';">
-      <img src="../src/img/work.png" class="laptop-screen">
+    <div id="square-three" onclick="window.location = '#';">
+      <img src="img/work.png" class="laptop-screen">
       <p> Coming Soon</p>
     </div>
   </div>
-</div>
-
-<div class="divide">
+  <div class="divide">
   <div class="text-divide-wrap">
     <h3 class="wow fadeInUp">Feel free to <span class="red"><a href="#contact"> reach</a></span>
       out and get in touch with me today! </h3>
@@ -156,36 +155,25 @@
   <div class='stars3'></div>
   <h1 class="header-contact wow bounceInDown"> Contact</h1>
   <div class="contact-wrap">
-    <form class="contact-form" action="https://formspree.io/david.qrk@gmail.com"  method="POST">
-      <div class="form-field">
-        <input id="name" class="input-text js-input" type="text" name="name" required>
-          <label class="label" for="name">Name</label>
-          </div>
-      <div class="form-field">
-        <input id="email" class="input-text js-input" type="email" name="email" required>
-        <label class="label" for="email">E-mail</label>
-      </div>
-      <div class="form-field message">
-        <textarea id="message" class="input-text js-input" rows="5" name="message" required></textarea>
-        <label class="label" for="message">Message</label>
-      </div>
-      <div class="form-field align-center">
-        <input class="submit-btn" type="submit" value="Submit">
-      </div>
-    </form>
+    <div class="col-full">
+    <h3 class="subhead">Keep In Touch</h3>
+    <p>Feel free to contact me for any <br> development related proposals or collaborations:</p>
   </div>
+        <p class="contact-email">
+          <a href="mailto:#0">me@davidquirke.design</a>
+        </p>
+        <p class="contact-address">
+          Tipperary, Ireland
+        </p>
+        <p class="contact-numbers">
+          +353 (83) 828 6788
+        </p>
+
+      </div>
   <div class="observe"><img src="img/observatory.png" height="422px" width="594px"></div>
   <div class="navigator"></div>
 </div>
-<footer>
-<ul class="social-icons">
-  <a href="https://www.linkedin.com/in/david-quirke-915b14127/" class="fa fa-linkedin"></a>
-  <a href="https://github.com/daquirke/" class="	fa fa-github"></a>
-  <a href="https://www.instagram.com/offthefags/" class="	fa fa-instagram"></a>
-  <a href="https://www.facebook.com/DavetheRasta" class="	fa fa-facebook-square"></a>
-</ul>
-&copy; 2018 David Quirke. | All Rights Reserved. | Web Design, Web Application Development & UX Design | Tipperary | Ireland
-</footer>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript" src="js/particles.js"></script>

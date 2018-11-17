@@ -3,9 +3,24 @@ html {
   line-height: 1.4;
   height: 100%;
   margin:0;
+  padding:0;
 }
 
-body{
+.border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-left: 12px solid rgba(255, 255, 255, 0.84);
+  border-top: 12px solid rgba(255, 255, 255, 0.84);
+  border-right: 12px solid rgba(255, 255, 255, 0.84);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   height: 110vh;
   margin: 0;
   padding: 0;
@@ -18,7 +33,7 @@ body{
   overflow-x: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
     background-image: url("../img/spacemobile.jpg");
   }
@@ -50,7 +65,7 @@ h1, h2{
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   font-family: 'Khand', sans-serif;
-  color: #fff;
+  color: #7682cc;
   text-align: center;
   cursor: pointer;
 }
@@ -195,7 +210,7 @@ h1, h2{
   background-color: #fff;
   background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
     linear-gradient(#eee .1em, transparent .1em);
-  background-size: 100% 1.2em;
+  background-size: 100% 1em;
   opacity: .8;
   text-align: center;
   color: black;
@@ -301,7 +316,7 @@ h1, h2{
 
 @media (max-width: 600px) {
   .textbox-about {
-    margin: -5% 12% 0% 10%;
+    margin: -5% 10% 0% 10%;
     overflow: visible;
     padding: 10px 10px 10px 10px;
   }
@@ -452,7 +467,7 @@ h1, h2{
   border-radius: 20px;
   border: #solid 20px #000000;
   background-color: rgba(0, 0, 0, 0.4);
-  padding: 20px 40px 40px 40px;
+  padding: 20px 30px 30px 30px;
   margin: 5% 10% 5% 10%;
 }
 
@@ -465,7 +480,9 @@ h1, h2{
 /* WORK SECTION */
 
 #work {
-  margin: 5%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
 }
 
 #wrapper {
@@ -488,7 +505,7 @@ h1, h2{
   width: 45%;
   height:400px;
   float:left;
-  margin: 0% 1% 4% 1%;
+  margin: 0% 1% 4% 3%;
   display:inline-block;
   text-align:center;
 }
@@ -508,7 +525,7 @@ h1, h2{
   background-repeat: no-repeat;
   background-position: center center;
   width: 45%;
-  margin: 0% 1% 4% 1%;
+  margin: 0% 3% 4% 1%;
   height:400px;
   display:inline-block;
   float:right;
@@ -530,7 +547,7 @@ h1, h2{
   background-repeat: no-repeat;
   background-position: center center;
   width: 45%;
-  margin: 0% 1% 4% 1%;
+  margin: 0% 1% 4% 3%;
   height: 400px;
   display: inline-block;
   text-align:center;
@@ -552,7 +569,7 @@ h1, h2{
   background-repeat: no-repeat;
   background-position: center center;
   width: 45%;
-  margin: 0% 1% 4% 1%;
+  margin: 0% 3% 4% 1%;
   height:400px;
   display:inline-block;
   float:right;
@@ -641,25 +658,27 @@ h1, h2{
 }
 
 #contact{
-   background-size: cover;
-  background-image: url("../img/contact-planet.png");
   position: relative;
+  background-image: url("../img/contact-planet.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   overflow: hidden;
+  margin: 0px 12px 0px 12px;
+}
+
+#contact img{
+  margin-left: 12px;
 }
 
 .header-contact {
   text-align: center;
   letter-spacing: 6px;
-  margin-top: 30px;
   font-size: 3.8em;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'LeagueSpartan-Bold', sans-serif;
-  padding-bottom: 5%;
 }
 
 @media (max-width: 600px) {
@@ -689,103 +708,8 @@ h1, h2{
     margin: 60% 50% 0% 50%;
     width: 70%;
     background-color: rgba(0, 0, 0, 0.85);
+    position: relative;
   }
-}
-
-.form-field {
-  padding: 10px;
-  position: relative;
-  margin: 32px 0;
-}
-
-.input-text {
-  width: 100%;
-  height: 36px;
-  font-family: 'Lato', 'sans-serif';
-  font-size: 26px;
-  line-height: 30px;
-  font-weight: 400;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #ffffff;
-  color: white;
-}
-
-.label {
-  left: 20px;
-  bottom: 11px;
-  font-family: 'Khand', sans-serif;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 400;
-  color: rgba(177, 177, 177, 0.77);
-  cursor: text;
-}
-
-.submit-btn {
-  display: inline-block;
-  background-color: #000;
-  color: #fff;
-  font-family: Lato, sans-serif;
-  text-transform: uppercase;
-  margin-left: 60%;
-  border: solid white 1px;
-  letter-spacing: 2px;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 8px 16px;
-  cursor: pointer;
-}
-
-/* FOOTER */
-
-footer{
-  font-family: cursive;
-  background-color: #f7f7f7;
- text-align: center;
-  overflow: hidden;
-  color: black;
-  height: 100px;
-  width: 100%;
-  margin-top: -10px;
-}
-
-@media (max-width: 600px) {
-  footer{
-    font-size: 10px;
-  }
-}
-
-.fa {
-  padding-left: 30px;
-  padding-right: 30px;
-  color: #05041e;
-  font-size: 30px;
-  width: 30px;
-  text-decoration: none;
-}
-
-@media (max-width: 600px) {
-  .fa{
-    padding: 0px 25px 0px 25px;
-    font-size: 25px;
-    width: 25px;
-  }
-}
-
-.fa:hover {
-  color: #d60000;
-  cursor: pointer;
-  -webkit-transition: color 50ms ease-in;
-  -moz-transition: color 50ms ease-in;
-  -o-transition: color 50ms ease-in;
-  transition: color 50ms ease-in;
-}
-
-
-.red a {
-  font-weight: bold;
-  color: #d60000;
 }
 
 /* A better looking default horizontal rule
