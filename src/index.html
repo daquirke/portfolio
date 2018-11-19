@@ -9,14 +9,14 @@
   <link rel="icon" href="../favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <link rel="stylesheet" href="css/stars.css">
   <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
-<div class="border"></div>
+<div class="se-pre-con">
+  <div class="small-head-spin animated swing"></div>
+  </div>
 <div class="nav-custom">
   <nav class="primary-nav primary-nav-header">
     <ul>
@@ -41,8 +41,8 @@
 <div class="scroll"></div>
 <div class="divide">
   <div class="text-divide-wrap wow fadeInUp">
-  <h3>I'm Dave, self-taught <span class="red">developer</span>
-    and UI <span class="red">designer</span> based in Ireland. </h3>
+  <h3>I'm Dave, self-taught <span class="red wow fadeIn">developer</span>
+    and UI <span class="red wow fadeIn">designer</span> based in Ireland. </h3>
   </div>
 </div>
 <h1 class="header wow bounceInUp"> ABOUT</h1>
@@ -74,7 +74,7 @@
     <div class='stars3'></div>
   <h1 class="header wow bounceInUp"> Skills</h1>
       <div class="textbox-skills">
-        <p class="animated fadeIn">I have included this animated skills bar using pure CSS animation and styling as a more visual representation of my web design skills that I
+        <p class="animated wow fadeIn">I have included this animated skills bar using pure CSS animation and styling as a more visual representation of my web design skills that I
           have acquired. I hope you enjoy it. </p>
         <section id="skill-bar-wrap">
             <div class="skill">
@@ -118,7 +118,7 @@
 </div>
 <div class="divide">
   <div class="text-divide-wrap">
-    <h3 class="wow fadeInUp">Check out some recent <span class="red">projects</span>
+    <h3 class="wow fadeInUp">Check out some recent <span class="red wow fadeIn">projects</span>
      work I have been up to below!</h3>
   </div>
 </div>
@@ -127,20 +127,20 @@
 
   <div id="wrapper">
     <div id="square-zero" onclick="window.location ='http://www.sweet-tooth.online';"  style="cursor: pointer;">
-      <img src="img/work-sweettooth.png" class="laptop-screen">
+      <img src="img/work-sweettooth.png" class="laptop-screen wow fadeIn">
       <p> SweetTooth</p>
     </div>
     <div id="square-one" onclick="window.location = 'http://www.brandpug.com';">
-      <img src="img/work-brandpug.png" class="laptop-screen">
+      <img src="img/work-brandpug.png" class="laptop-screen wow fadeIn">
       <p> Brandpug</p>
     </div>
     <div id="square-two" onclick="window.location = 'http://www.sparkleoutlet.com';">
-      <img src="img/work.png" class="laptop-screen">
-      <p> SparkleOutlet</p>
+      <img src="img/work.png" class="laptop-screen wow fadeIn">
+      <p> SparkleOutlet - Under Construction</p>
     </div>
-    <div id="square-three" onclick="window.location = '#';">
-      <img src="img/work.png" class="laptop-screen">
-      <p> Coming Soon</p>
+    <div id="square-three" onclick="window.location = 'http://baliessentialproperties.com/';">
+      <img src="img/work-bali.png" class="laptop-screen wow fadeIn">
+      <p> Bali Essential Properties</p>
     </div>
   </div>
   <div class="divide">
@@ -153,14 +153,15 @@
   <div class='stars'></div>
   <div class='stars2'></div>
   <div class='stars3'></div>
-  <h1 class="header-contact wow bounceInDown"> Contact</h1>
+  <h1 class="header-contact wow bounceInUp"> Contact</h1>
+
   <div class="contact-wrap">
     <div class="col-full">
     <h3 class="subhead">Keep In Touch</h3>
     <p>Feel free to contact me for any <br> development related proposals or collaborations:</p>
   </div>
-        <p class="contact-email">
-          <a href="mailto:#0">me@davidquirke.design</a>
+        <p class="contact-email wow fadeIn">
+          <a href="mailto:me@davidquirke.design">me@davidquirke.design</a>
         </p>
         <p class="contact-address">
           Tipperary, Ireland
@@ -173,7 +174,17 @@
   <div class="observe"><img src="img/observatory.png" height="422px" width="594px"></div>
   <div class="navigator"></div>
 </div>
-
+  <footer class="page-footer">
+      <ul class="social-icons">
+        <a href="https://www.linkedin.com/in/david-quirke-915b14127/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" style="fill:#000000;">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path></svg></a>
+        <a href="https://github.com/daquirke/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ5SURBVGhD7dlZqFVVHMfxW1Y2UWphFBEVKSqK0UBz0EBFllAOKAriSIRYBFEU0UsPzURU1EMPQfVQREUWiVhpD0FYNhnRPFHRTCPNfb90FmzW+e99977ufZS4P/jAvfecvdY+++y91n+tOzSa/3EOwRLcg2fxGX7AP/gT3+ItPIbrcCb2xA6RCbgEm+EJN/ULHsA52AkDz/64AemKt+EVzMVAPpCdrMRXiE6mDd6WU9FZ9sNaRJ237VesQuuZgg8Rddqle7ELWskx+BpRR4PwBHbDNmUavkTUwSA9hDEYUXwmPkbU8PZwMxrH0anqwf4Nf2R/a8PPwd+SvzEbjeIQGzWWnA+/6sNxGd5B9D45ozvxRa95Me7DWdgHtvkCovfK29xJuFa8paoe7t+xM4rxYbwW7+EOnI2DUXxIPVHnh4vwNF7GdOS5HFG/yd2oFWfsqIHEq9JlliHqN7Fum4TK+LX9iKiB5Ht0GSfCqN8i55fKrEF0YG48usqNiPoscuYfh9K8hOjA3BnoKtZaUZ+50hLG9UR0QMR1R1dxwIj6zD2FMJ5cdEDuDeyKrrIAUb85lxDhebiyiw7IdVKVFuLQ/hGivnNHoS8bEb25yNnVRVXXca6I+s8tRF8+RfTmIq/UIHIpov5z16AvdZatr2MQuRhR/7mwkCy+wTLEGul9fNH7WW9iEHF2d0NDz2M9nuv9/i6+ged5F/ri/e+LY3usuSwK5QSYjHhd0CCTcXTP6XDr6LTe75YnV6H0g3wHX4zKc8sW96nclzoVXcYlxDo4n1jXlVXOuh598bbxxVswD8fiADgcWrkeCK+GQ16XWzZOzEfCO2EiUnlvNX0yFiOV+u6p9cW1sS8+ApeWL6JsmbsaXcSTjZYQVryfwOflfqT1zyz05UrkDZSxYb+1NuM37qgY9Rf5Cz7HfTkR0QFlHBwc/vbGtuZcfI6onzKvIox1S9ma2ecnjWo5T8DV4WFoEi+AdVXdajd3O0rjhnJ0kPXVDHgVoteTt/EgrsYiHATjw3oCXO+4FLYccgMjaqOuytHzeEQH+W1cgH3xWu9vVZ6Bo0+eC+EKMzqmCdf7w6ZsceW47valI4uza/QebULVzuBxqNr2qWMFhs0cRAfLK2qc4Z1dH8XD8Ja8E9ZIlUvQXq5A1H4d7kHvgVp5ElEjG9BG/MasFKI+hnMeaudQlH39S9FGbkPUfhUn68Yp25bxwfeWcjfSSTEJZ9mKzEfUfhln9jQKNs5wm3VFW9EkDp9RO5Gf4PA/4jj+P46o8ZzDcpNYAEbt5CyHGm9eR/HBdKM56qSoiw/i8qHpLVsZy3bXx2Vlitr+ID4TlvOdxH8nlG3VtPlBHJ2shjuNxd5NyFeSTT/ISSgerw/QaJ5oI0fgVqQlsht8TeLOfzp2C5Zjd2y37AXnhNplQyEzccp/P45mNDtghob+BWm8vkDPJb3BAAAAAElFTkSuQmCC"></a>
+        <a href="https://www.instagram.com/offthefags/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANmSURBVGhD7dpJyI1RHMfx10yUWcRCWdgQEfYoCkVJpgUZSmwkomShTAsUybSUIVFiYVgoKwvKsJFxoyxMmcsQvr96T93efue5z7n3vPfexfurz+ae8zzvPe7znPN/zqOtK11pfrphOvbhLl7jF/5l8gVPcA3rMRLZMxcP4L5AZ/mNkxiFujMAl+D+UKN8w3LUnNF4BHfyRvuLPUhOfzyGO2kzbUNSLsOdqNn+QPdrqcyBO0mreI5eKIym2IdwJ2iU7+azjjaiMDPgDmyUdeiOcdC/vOsjWgoKsxfuwEbo+OXWwvULxiIardjuoHq8R5nL5QX0a4RshesXrEI0KjvcQSnuYwvGozdCBmI2juID3LFaySdiKT62fxazC9HUUzs9wyJUpgdUYmgQlRmE/VAZ4s5VxnFE4w4o4yYGQ9GX3I570Lwf+nzCRSxAiH6h2K9TzVlE4w6o5hZ6QtEl8Q6uX6XbGANlEsrcQx1lHYimyHDZ7IRqItfPeQPdD8piuD5Fsg4k3BPLkDKIQDPVUCg34PrEZBuIZidFv0iZyynmCJQpcO0x2QaiKVbZAddelmbKEVA087k+TraBaJ1QNDu59hRroByGa3eyDUSLndaJyim2ViegqBh07U6WgbyFog0C157qChRNHq7dyTKQH1B0o7v2VBegrIBrd7JdWmH9+AzXnuIAlGqFYqVsA1F5oajscO0pZkFJOVe2gaiKVebBtZf1Cnp07YOv7Z+VkW0gKvZUICp34PqUofpM0dOha4/JNhAJ17YKQNVOrk+R01C0/ZR6fNaBaA2ZCWUCXsL1czQIrUXa8DjX/lmKrAMRXWKToQyB7p2fcH1F90S4nDSI3XD9qsk+ENH+7BKEqHZS2aGnuKs4Dz0RanYKzy7aV67llwjOIBpt7buDyrqOaShKX+jGruWeqnQQ0TyFOyiVqthD2ISFWAktdlonUqbYIpsRjS4Dd1Armo9oUufyZtEzfj9Eo2q2ni2aRtHbgqo5BXdwq9DewFRUjTbUNJ26k7QCTdmlo+eCWnZFOpsqh+FIil5Du5M1i3Yqwz5YcvTOLsczeb1U1tQ8iBC9iit66dKZdHnrnhiGLNGDzwY06j8NaJ3Q+/1Ss1Ot0Zui1dD7iWPQO40cVNKo7NBufeFi15WuNCxtbf8Bp01RYjO59oUAAAAASUVORK5CYII="></a>
+        <a href="https://www.facebook.com/DavetheRasta"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" style="fill:#000000;">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M37,19h-2c-2.14,0-3,0.5-3,2 v3h5l-1,5h-4v15h-5V29h-4v-5h4v-3c0-4,2-7,6-7c2.9,0,4,1,4,1V19z"></path></svg></a>
+      </ul>
+      <div class="copyright">
+        <span>&copy; David Quirke &ndash; 2018</span>
+      </div>
+  </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript" src="js/particles.js"></script>

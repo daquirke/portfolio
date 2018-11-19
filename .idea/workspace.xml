@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="5bbbb373-28c5-4128-b53a-5969ec55df39" name="Default" comment="added yaml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/stars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/astro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/can.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cannot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cross1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/stripes-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/stripes.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/particles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,14 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="159" column="6" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="283">
+              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -33,15 +41,37 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="666" column="28" selection-start-line="666" selection-start-column="28" selection-end-line="666" selection-end-column="28" />
+            <state relative-caret-position="247">
+              <caret line="832" column="21" selection-start-line="832" selection-start-column="21" selection-end-line="832" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="particles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/particles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,36 +86,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>conta</find>
-      <find>divide</find>
-      <find>skill1</find>
-      <find>bouncein</find>
-      <find>fadeInU</find>
-      <find>fadeIn</find>
-      <find>fadeInD</find>
-      <find>skill6</find>
-      <find>skill</find>
-      <find>scroll</find>
-      <find>textbox</find>
-      <find>hours</find>
-      <find>textbox-s</find>
-      <find>.divide</find>
-      <find>work</find>
-      <find>fa</find>
-      <find>#work</find>
-      <find>header-con</find>
-      <find>header-cont</find>
-      <find>contact-wr</find>
-      <find>contact-plan</find>
-      <find>contact-planet</find>
-      <find>footer</find>
-      <find>inline</find>
-      <find>html</find>
-      <find>observe</find>
       <find>body</find>
       <find>header-co</find>
       <find>textbox-skills</find>
+      <find>textbox</find>
+      <find>contact-w</find>
+      <find>a:</find>
+      <find>delta</find>
+      <find>big</find>
+      <find>particl</find>
+      <find>.div</find>
+      <find>::</find>
+      <find>.red</find>
       <find>contact</find>
+      <find>prelo</find>
+      <find>se-</find>
+      <find>animate.css</find>
+      <find>max</find>
+      <find>min</find>
+      <find>max-</find>
+      <find>min-</find>
+      <find>grid</find>
+      <find>skills</find>
+      <find>head</find>
+      <find>none</find>
+      <find>footer</find>
+      <find>contact-wrap</find>
+      <find>#about</find>
+      <find>justify</find>
+      <find>.header</find>
+      <find>.header-c</find>
     </findStrings>
     <replaceStrings>
       <replace>class='stars</replace>
@@ -102,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/css/font.css" />
         <option value="$PROJECT_DIR$/src/css/devices/layout-modify3.css" />
         <option value="$PROJECT_DIR$/src/css/style.css" />
-        <option value="$PROJECT_DIR$/src/js/particles.js" />
         <option value="$PROJECT_DIR$/src/404.html" />
         <option value="$PROJECT_DIR$/src/css/starX.scss" />
         <option value="$PROJECT_DIR$/src/css/main.scss" />
@@ -124,9 +153,11 @@
         <option value="$PROJECT_DIR$/src/css/stars.css" />
         <option value="$PROJECT_DIR$/src/css/animate.css" />
         <option value="$PROJECT_DIR$/src/css/mainX.css" />
+        <option value="$PROJECT_DIR$/src/js/particles.js" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/css/main.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/css/main.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -146,7 +177,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="945" />
     <option name="y" value="10" />
     <option name="width" value="980" />
@@ -160,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,18 +213,13 @@
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +324,9 @@
       <workItem from="1542017330578" duration="3342000" />
       <workItem from="1542289427809" duration="10500000" />
       <workItem from="1542304799801" duration="8199000" />
-      <workItem from="1542401368895" duration="13825000" />
+      <workItem from="1542401368895" duration="17726000" />
+      <workItem from="1542545945006" duration="953000" />
+      <workItem from="1542547919979" duration="17839000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1539340125052</created>
@@ -312,7 +339,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336049000" />
+    <option name="totallyTimeSpent" value="358742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,12 +352,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.21348314" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.21348314" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32905984" />
       <window_info id="npm" order="1" side_tool="true" />
@@ -346,7 +373,6 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32905984" />
     </layout>
     <layout-to-restore>
       <window_info id="Gulp" order="0" side_tool="true" />
@@ -385,7 +411,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/img/back4.png" />
     <entry file="file://$PROJECT_DIR$/src/img/back2.png" />
     <entry file="file://$PROJECT_DIR$/src/img/me.png" />
     <entry file="file://$PROJECT_DIR$/src/img/module.png" />
@@ -400,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5800">
-          <caret line="297" column="7" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -535,23 +553,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/js/particles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="666" column="28" selection-start-line="666" selection-start-column="28" selection-end-line="666" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="159" column="6" selection-start-line="159" selection-start-column="6" selection-end-line="159" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="832" column="21" selection-start-line="832" selection-start-column="21" selection-end-line="832" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
